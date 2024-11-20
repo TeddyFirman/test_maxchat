@@ -1,0 +1,20 @@
+{
+    "data": [
+        {"code": "rv1", "name": "Rover #1", "model": "car", "tech": "AI, car", "status": "progress"},
+        {"code": "tfx", "name": "Transformer X", "model": "transformation", "tech": "car, robot", "status": "active"},
+        {"code": "px1", "name": "Pacifista 1", "model": "humanoid", "tech": "AI, robot", "status": "active"},
+        {"code": "ax8", "name": "Android #8", "model": "humanoid", "tech": "cyborg", "status": "active"},
+        {"code": "ax7", "name": "Android #7", "model": "humanoid", "tech": "cybord", "status": "inactive"}
+    ],
+    "model_references": [
+        {"key": "car", "value": "Mobil"},
+        {"key": "humanoid", "value": "Humanoid"},
+        {"key": "transformation", "value": "Transformasi"}
+    ],
+    "tech_references": [
+        {"key": "AI", "value": "Kecerdasan Buatan"},
+        {"key": "car", "value": "Mobil"},
+        {"key": "robot", "value": "Robot"},
+        {"key": "cyborg", "value": "Cyborg"}
+    ]
+}
